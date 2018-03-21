@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Sreenidhin C C">
+
+    <title>SweetTunes|Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header role="banner">
+     	<nav class="navbar navbar-expand-lg navbar-dark orange">
+      <div class="container">
+        <a class="navbar-brand" href="#">Imaginaly</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	</header>
+	<section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">About SweetTunes</h1>
+          <p>This is just a demo project uploaded for testing purpose......</p>
+        </div>
+         </div>
+        <div class="row">
+            <div class="col-md-6">
+            <h4>FEATURES</h4>
+            <ul>
+                <li><p>Upload Image File</p></li>
+                <li><p>Get Meta Detais of imade</p></li>
+                <li><p>GET Error level analysis of image</p></li>
+            </ul>
+            <h4 class="mt-3">SPECIFICATIONS</h4>
+            <ul>
+                <li><p>Django == 1.11</p></li>
+                <li><p>Python</p></li>
+                <li><p>Pillow</p></li>
+                <li><p>Bootstrap 4</p></li>
+                <li><p>Font awesome</p></li>
+            </ul>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="{% static 'images/shot.png' %}">
+            </div>
+        </div>
+    </div>		
+<footer class="orange text-center">
+  <div class="container text-center pt-2">
+    <ul class="list-inline list-social-icons mb-0">
+  <li class="list-inline-item">
+    <a href="https://www.linkedin.com/in/ccsreenidhin/">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  <li class="list-inline-item">
+    <a href="https://bitbucket.org/ccsreenidhin/">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+</ul>
+  </div>
+        <p>&copy; Sreenidhin C C</p>
+</footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'jquery/custom.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'jquery/fupload/vendor/jquery.ui.widget.js' %}"></script>
+    <script src="{% static 'jquery/fupload/jquery.iframe-transport.js' %}"></script>
+    <script src="{% static 'jquery/fupload/jquery.fileupload.js' %}"></script>
+    <script src="{% static 'jquery/fupload/progress-bar-upload.js' %}"></script>
+
+	</body>
+
+</html>
